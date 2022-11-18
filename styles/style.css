@@ -15,6 +15,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+main {
+   overflow-x: hidden;
+}
 /* body */
 body {
     overflow-x: hidden;
@@ -66,10 +69,12 @@ h2 {
     font-weight: bolder;
     color: var(--alternativeColor);
     text-shadow: 3vw .3vw 9vw ;
+    border-radius: 20px, 10px;
 }
 footer {
+    overflow-x: hidden;
     position: sticky;
-    margin-bottom: auto;
+    margin-top: 8.9rem;
     background-image: linear-gradient(to right,rgb(255, 156, 156) , rgb(121, 121, 231) , rgb(203, 139, 203));
 }
 
