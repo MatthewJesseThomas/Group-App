@@ -69,7 +69,7 @@ h2 {
 }
 footer {
     position: sticky;
-    margin-top: 10rem;
+    margin-bottom: auto;
     background-image: linear-gradient(to right,rgb(255, 156, 156) , rgb(121, 121, 231) , rgb(203, 139, 203));
 }
 
