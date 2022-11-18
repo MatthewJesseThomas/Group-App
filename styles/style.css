@@ -46,30 +46,37 @@ h2 {
 .jcsa {
     margin-left: 2rem;
     margin-right: 2rem;
+    width: 12rem;
     scale: 1.1;
+    border-radius: 20px  10px;
+    border-color: #d78b8b;
+    color: rgb(91, 170, 239);
 }
 .jcsa:hover {
     scale: 1.5;
+    background-color: #bdf2f3;
 }
 /* Text */
 #firstName {
     font-style: italic;
     font-weight: bolder;
     color: var(--alternativeColor);
-    text-shadow: 3vw .3vw 9vw ;
+    box-shadow: 0 0 8px 0 lightslategrey;
 }
 #surname {
     font-style: italic;
     font-weight: bolder;
     color: var(--alternativeColor);
-    text-shadow: 3vw .3vw 9vw ;
+    box-shadow: 0 0 8px 0 lightslategrey;
 }
 #email {
     font-style: italic;
     font-weight: bolder;
     color: var(--alternativeColor);
-    text-shadow: 3vw .3vw 9vw ;
-    border-radius: 20px, 10px;
+    box-shadow: 0 0 8px 0 lightslategrey;
+}
+#firstName,#surname,#email {
+    background-image: linear-gradient(to right,rgb(255, 156, 156) , rgb(121, 121, 231) , rgb(203, 139, 203));
 }
 footer {
     overflow-x: hidden;
