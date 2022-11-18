@@ -1,0 +1,75 @@
+/* Define custom variables */
+:root {
+    --primaryColor: darkcyan;
+    --secondaryColor: rgb(26, 48, 48);
+    --alternativeColor: rgb(69, 118, 209);
+    --redColor: rgb(102, 11, 11);
+    --whiteText:white;
+    /* none | h-offset (X) v-offset (Y) blur spread color |inset|initial|inherit*/
+    --mainBoxShadow: .3vw .3vw 1vw rgba(120, 200, 87, 11);
+}
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body */
+body {
+    overflow-x: hidden;
+    text-align: center;
+    background-image: linear-gradient(to right, #d78b8b , #bdf2f3 , #d78b8b);
+}
+h2 {
+    margin-top: 3rem;
+    font-weight: 800px !important;
+}
+.form-control {
+    width: 50rem;
+    height: 3rem;
+}
+.row {
+    margin-top: 2rem;
+}
+
+.fN {
+    margin-top: 2rem;
+}
+.row,button {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.jcsa {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    scale: 1.1;
+}
+.jcsa:hover {
+    scale: 1.5;
+}
+/* Text */
+#firstName {
+    font-style: italic;
+    font-weight: bolder;
+    color: var(--alternativeColor);
+    text-shadow: 3vw .3vw 9vw ;
+}
+#surname {
+    font-style: italic;
+    font-weight: bolder;
+    color: var(--alternativeColor);
+    text-shadow: 3vw .3vw 9vw ;
+}
+#email {
+    font-style: italic;
+    font-weight: bolder;
+    color: var(--alternativeColor);
+    text-shadow: 3vw .3vw 9vw ;
+}
+footer {
+    position: sticky;
+    margin-top: 10rem;
+    background-image: linear-gradient(to right,rgb(255, 156, 156) , rgb(121, 121, 231) , rgb(203, 139, 203));
+}
+
